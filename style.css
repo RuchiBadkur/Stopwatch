@@ -1,0 +1,75 @@
+body{
+
+    display: grid;
+    place-items: center center;
+    height: 100vh;
+    /* background-image: url('https://images.pexels.com/photos/1076039/pexels-photo-1076039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+    background-color: black;
+   /* background-image: url('https://images.pexels.com/photos/604684/pexels-photo-604684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+    background-image: url('https://images.pexels.com/photos/11792920/pexels-photo-11792920.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+   /* background-image: url('https://images.pexels.com/photos/376533/pexels-photo-376533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container{
+    display: grid;
+    place-items: center center;
+    border-radius: 10px;
+    box-shadow: 2px  2px 10px 5px rgb(136, 138, 136);
+    width: 400px;
+    padding: 40px 30px;
+    background-color: rgba(231, 225, 231, 0.2);
+    backdrop-filter: blur(5px);
+    font-size: 50px;
+    color: white;
+     -webkit-box-reflect: below 3px linear-gradient(transparent, transparent, rgba(255,255,255,0.3)); 
+    
+}
+#watch{
+    color: rgb(17, 9, 15);
+    margin-bottom: 10px;
+}
+
+
+
+/* .container:hover{
+    transform-origin:center;
+    transform:perspective(500px) rotateY(30deg);
+    -webkit-box-reflect: below 3px linear-gradient(transparent, transparent, rgba(255,255,255,0.3)); 
+    transition: 0.6s;
+} */
+
+button{
+    padding: 5px 10px;
+    border-color: rgb(161, 157, 157) ; 
+    box-shadow: 2px  2px 10px 5px rgb(136, 138, 136);
+    margin-top: 12px ;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor:pointer;
+}
+#start:hover{
+    padding: 5.2px 10.2px;
+    border-color: rgb(67, 182, 22) ; 
+    color: rgb(67, 182, 22) ;
+    z-index: 999;
+}
+#pause:hover{
+    padding: 5.2px 10.2px;
+    border-color: rgb(224, 240, 11) ; 
+    color: rgb(224, 209, 69);
+    border-radius: 10px;
+    z-index: 999;
+}
+/* .changeColor{
+    color: green;
+} */
+#stop:hover{
+    padding: 5.2px 10.2px;
+    border-color: rgb(214, 62, 24) ; 
+    color:  red ;
+    border-radius: 10px;
+    z-index: 999;
+}
